@@ -27,6 +27,7 @@ import { TransactionsComponent } from './transactions/transactions.component';
 import { AlexaComponent } from './alexa/alexa.component';
 import { DeactiveComponent } from './deactive/deactive.component';
 import { ProfileComponent } from './profile/profile.component';
+import { RootHomeComponent } from './root-home/root-home.component';
 
 @NgModule({
 	declarations: [
@@ -43,7 +44,8 @@ import { ProfileComponent } from './profile/profile.component';
 		TransactionsComponent,
 		AlexaComponent,
 		DeactiveComponent,
-		ProfileComponent
+		ProfileComponent,
+		RootHomeComponent
 	],
 	imports: [
 		BrowserModule,
