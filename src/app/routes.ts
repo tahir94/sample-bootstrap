@@ -15,10 +15,10 @@ import { RootHomeComponent } from "./root-home/root-home.component";
 
 
 const routing : Routes = [
-   {path:'' , redirectTo:'root' , pathMatch:'full'},
-   { path : 'root', component : RootHomeComponent, children : [
-	  {path : 'account/home',component : HomeComponent},
-	  {path : 'account/password',component : PasswordComponent},
+      {path:'' , redirectTo:'home' , pathMatch:'full'},
+      { path : 'home', component : HomeComponent, children : [
+	//   {path : 'home',component : HomeComponent},
+	  {path : 'password',component : PasswordComponent},
 	  {path : 'app-profile',component : ProfileComponent},
 	  {path : 'app-billing-info',component : BillingInfoComponent},
 	  {path : 'app-gift-cards',component : GiftCardsComponent},
