@@ -1,4 +1,22 @@
-<h1 style="text-align : center">
+<div *ngIf="isAlexa" class="container2">
+	<h3 class="alexa-title">
 		Alexa
-</h1>
-<hr>
+	</h3>
+	<div class="alexa-paras">
+		<p>Alexa uses your home location and saved credit card when booking Tasks.</p>
+		<p><strong>Location</strong>
+		<span style="margin-left: 1rem;">
+		<span>none</span></span>
+		<a href="" class="alexa-link">Add</a>
+		</p>
+
+		<p><strong>Credit Card</strong>
+			<span style="margin-left: 1rem;">
+			<span>none</span></span>
+			<a (click)="AddCredit()" data-target-id="billing-info" class="alexa-link">Add</a>
+			</p>
+	</div>
+</div>
+	<div *ngIf="isBillingInfo" id="billing-info">
+		<app-billing-info></app-billing-info>
+	</div>

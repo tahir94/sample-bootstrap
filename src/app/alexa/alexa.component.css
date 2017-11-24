@@ -1,0 +1,19 @@
+.alexa-title{
+    margin-left: 15px;
+    border-bottom: 1px solid #dce0e6;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.alexa-paras{
+    margin-left: 15px;
+}
+.alexa-link{
+    margin-left: 1rem;
+    color: #438e29;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: normal;
+}
+a:hover{
+    color:#1f6507
+}

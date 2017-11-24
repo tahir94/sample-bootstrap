@@ -23,6 +23,7 @@ import { AlexaComponent } from './alexa/alexa.component';
 import { DeactiveComponent } from './deactive/deactive.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RootHomeComponent } from './root-home/root-home.component';
+import { AlexaEditComponent } from './alexa-edit/alexa-edit.component';
 
 @NgModule({
 	declarations: [
@@ -40,7 +41,8 @@ import { RootHomeComponent } from './root-home/root-home.component';
 		AlexaComponent,
 		DeactiveComponent,
 		ProfileComponent,
-		RootHomeComponent
+		RootHomeComponent,
+		AlexaEditComponent
 	],
 	imports: [
 		BrowserModule,
