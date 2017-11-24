@@ -1,0 +1,12 @@
+.container{
+	border: 0.5px solid #DCDFE5;
+    width: 60%;
+    margin-left: 25%;
+    position: relative;
+    top: 80px;
+    height: 380px;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
