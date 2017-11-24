@@ -1,0 +1,13 @@
+.account-balance-title{
+    margin-left: 15px;
+    border-bottom: 1px solid #dce0e6;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.form{
+    margin-left: 15px;
+    max-width: 400px;
+}
+.input-label{
+    color: #545e69
+}

@@ -1,0 +1,40 @@
+.canel-title{
+    margin-left: 10px;
+    border-bottom: 1px solid #dce0e6;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.div-para{
+    margin-left: 10px;
+    width: 90%;
+    text-align: center;
+    
+}
+.para{
+    text-align: justify;
+    margin: 0 0 1.5rem 0;
+}
+.para-child{
+    color : #466C84;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.div-image{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.cancel-image{
+    width: 580px;
+}
+.dashboard-link{
+    font-size: 2rem;
+    color: #438e29;
+    text-decoration: none;
+    font-weight: normal;
+}
+a:hover{
+    color:#1f6507
+}
+.link-div{
+    margin-left: 20px;
+}
